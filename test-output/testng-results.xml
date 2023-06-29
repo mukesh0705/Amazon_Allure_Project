@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Front page title verified ::  Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in]]>
+    </line>
+    <line>
+      <![CDATA[Front page header verified ::  Amazon miniTV]]>
+    </line>
+    <line>
+      <![CDATA[Search Functionality of this app verified ::  "a sport shoe for men"]]>
+    </line>
+    <line>
+      <![CDATA[All searched product loaded and Clicked Product verified:: | Speedster Men Running Shoe  | Speedster Men Running Shoe]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-06-13T15:35:59 IST" name="driverFactory.TestScript" finished-at="2023-06-13T15:36:44 IST" duration-ms="45247">
+    <groups>
+    </groups>
+    <test started-at="2023-06-13T15:35:59 IST" name="Command line test" finished-at="2023-06-13T15:36:44 IST" duration-ms="45247">
+      <class name="driverFactory.TestScript">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:driverFactory.TestScript@1b955cac]" started-at="2023-06-13T15:35:21 IST" name="setUp" finished-at="2023-06-13T15:35:59 IST" duration-ms="37191" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyFrontPageTitle()[pri:0, instance:driverFactory.TestScript@1b955cac]" started-at="2023-06-13T15:35:59 IST" name="verifyFrontPageTitle" finished-at="2023-06-13T15:36:04 IST" duration-ms="5567" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Front page title verified ::  Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyFrontPageTitle -->
+        <test-method signature="verifyFrontPageHeader()[pri:1, instance:driverFactory.TestScript@1b955cac]" started-at="2023-06-13T15:36:05 IST" name="verifyFrontPageHeader" finished-at="2023-06-13T15:36:05 IST" duration-ms="394" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Front page header verified ::  Amazon miniTV]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyFrontPageHeader -->
+        <test-method signature="search()[pri:2, instance:driverFactory.TestScript@1b955cac]" started-at="2023-06-13T15:36:05 IST" name="search" finished-at="2023-06-13T15:36:14 IST" duration-ms="8990" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Search Functionality of this app verified ::  "a sport shoe for men"]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method signature="ASearchedProducts()[pri:3, instance:driverFactory.TestScript@1b955cac]" started-at="2023-06-13T15:36:14 IST" name="ASearchedProducts" finished-at="2023-06-13T15:36:44 IST" duration-ms="29576" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[All searched product loaded and Clicked Product verified:: | Speedster Men Running Shoe  | Speedster Men Running Shoe]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ASearchedProducts -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:driverFactory.TestScript@1b955cac]" started-at="2023-06-13T15:36:45 IST" name="tearDown" finished-at="2023-06-13T15:36:47 IST" duration-ms="1907" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- driverFactory.TestScript -->
+    </test> <!-- Command line test -->
+  </suite> <!-- driverFactory.TestScript -->
+</testng-results>
