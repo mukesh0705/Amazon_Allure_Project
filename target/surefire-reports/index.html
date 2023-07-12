@@ -26,7 +26,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -40,7 +40,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Surefire_suite" class="navigator-link">
-              <span class="suite-name border-passed">Surefire suite</span>
+              <span class="suite-name border-failed">Surefire suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -93,7 +93,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">4 methods,   4 passed</span>
+                    <span class="method-stats">5 methods, 1 failed,   4 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Surefire_suite" class="hide-methods failed suite-Surefire_suite"> (hide)</a> <!-- hide-methods failed suite-Surefire_suite -->
+                      <a href="#" panel-name="suite-Surefire_suite" class="show-methods failed suite-Surefire_suite"> (show)</a> <!-- show-methods failed suite-Surefire_suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Surefire_suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="driverFactory.TestScript02" class="method navigator-link" hash-for-method="startSearch">startSearch</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Surefire_suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -104,22 +118,22 @@
                     <div class="method-list-content passed suite-Surefire_suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Surefire_suite" title="driverFactory.TestScript" class="method navigator-link" hash-for-method="ASearchedProducts">ASearchedProducts</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Surefire_suite" title="driverFactory.TestScript01" class="method navigator-link" hash-for-method="ASearchedProducts">ASearchedProducts</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Surefire_suite" title="driverFactory.TestScript" class="method navigator-link" hash-for-method="search">search</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Surefire_suite" title="driverFactory.TestScript01" class="method navigator-link" hash-for-method="search">search</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Surefire_suite" title="driverFactory.TestScript" class="method navigator-link" hash-for-method="verifyFrontPageHeader">verifyFrontPageHeader</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Surefire_suite" title="driverFactory.TestScript01" class="method navigator-link" hash-for-method="verifyFrontPageHeader">verifyFrontPageHeader</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Surefire_suite" title="driverFactory.TestScript" class="method navigator-link" hash-for-method="verifyFrontPageTitle">verifyFrontPageTitle</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Surefire_suite" title="driverFactory.TestScript01" class="method navigator-link" hash-for-method="verifyFrontPageTitle">verifyFrontPageTitle</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Surefire_suite -->
@@ -134,10 +148,34 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Surefire_suite" class="panel Surefire_suite">
+          <div class="suite-Surefire_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">driverFactory.TestScript02</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="startSearch">
+                  </a> <!-- startSearch -->
+                  <span class="method-name">startSearch</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy19.click(Unknown Source)
+	at scenario02.AfrontPage01.fPage(AfrontPage01.java:17)
+	at driverFactory.TestScript02.startSearch(TestScript02.java:14)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-failed -->
           <div class="suite-Surefire_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">driverFactory.TestScript</span>
+              <span class="class-name">driverFactory.TestScript01</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
@@ -182,7 +220,8 @@
   &lt;test thread-count=&quot;1&quot; name=&quot;Surefire test&quot; verbose=&quot;0&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;driverFactory.TestExcutionListener&quot;/&gt;
-      &lt;class name=&quot;driverFactory.TestScript&quot;/&gt;
+      &lt;class name=&quot;driverFactory.TestScript01&quot;/&gt;
+      &lt;class name=&quot;driverFactory.TestScript02&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Surefire test --&gt;
 &lt;/suite&gt; &lt;!-- Surefire suite --&gt;
@@ -196,7 +235,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Surefire test (2 classes)</span>
+                <span class="test-name">Surefire test (3 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -222,28 +261,32 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(4);
+data.addRows(5);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'ASearchedProducts')
-data.setCell(0, 2, 'driverFactory.TestScript')
-data.setCell(0, 3, 28752);
+data.setCell(0, 2, 'driverFactory.TestScript01')
+data.setCell(0, 3, 32957);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'search')
-data.setCell(1, 2, 'driverFactory.TestScript')
-data.setCell(1, 3, 23201);
+data.setCell(1, 2, 'driverFactory.TestScript01')
+data.setCell(1, 3, 13576);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'verifyFrontPageTitle')
-data.setCell(2, 2, 'driverFactory.TestScript')
-data.setCell(2, 3, 1832);
+data.setCell(2, 1, 'startSearch')
+data.setCell(2, 2, 'driverFactory.TestScript02')
+data.setCell(2, 3, 1709);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'verifyFrontPageHeader')
-data.setCell(3, 2, 'driverFactory.TestScript')
-data.setCell(3, 3, 202);
+data.setCell(3, 1, 'verifyFrontPageTitle')
+data.setCell(3, 2, 'driverFactory.TestScript01')
+data.setCell(3, 3, 1144);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'verifyFrontPageHeader')
+data.setCell(4, 2, 'driverFactory.TestScript01')
+data.setCell(4, 3, 1035);
 window.suiteTableData['Surefire_suite']= { tableData: data, tableDiv: 'times-div-Surefire_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 53 seconds</span>
+              <span class="suite-total-time">Total running time: 50 seconds</span>
               <div id="times-div-Surefire_suite">
               </div> <!-- times-div-Surefire_suite -->
             </div> <!-- times-div -->
@@ -255,21 +298,9 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="reporter-method-div">
-              <span class="reporter-method-name">verifyFrontPageHeader</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Front page header verified ::  Amazon miniTV</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
               <span class="reporter-method-name">verifyFrontPageTitle</span>
               <div class="reporter-method-output-div">
                 <span class="reporter-method-output">Front page title verified ::  Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">ASearchedProducts</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">All searched product loaded and Clicked Product verified:: Men's Running Shoes  Men's Running Shoes</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
@@ -278,13 +309,34 @@ return data;
                 <span class="reporter-method-output">Search Functionality of this app verified ::  "a sport shoe for men"</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyFrontPageHeader</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Front page header verified ::  Amazon miniTV</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">ASearchedProducts</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">All searched product loaded and Clicked Product verified:: Men's Running Shoe  Men's Running Shoe</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Surefire_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">0 ignored methods</span>
+            <span class="header-content">2 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">driverFactory.TestScript02</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setUp</span>
+                <br/>
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="chronological-Surefire_suite" class="panel">
@@ -293,30 +345,42 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">driverFactory.TestScript</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">driverFactory.TestScript01</div> <!-- chronological-class-name -->
               <div class="configuration-suite before">
                 <span class="method-name">setUp</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-suite before -->
               <div class="test-method">
                 <span class="method-name">verifyFrontPageTitle</span>
-                <span class="method-start">14807 ms</span>
+                <span class="method-start">18885 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">verifyFrontPageHeader</span>
-                <span class="method-start">19278 ms</span>
+                <span class="method-start">20634 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">search</span>
-                <span class="method-start">19499 ms</span>
+                <span class="method-start">21686 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">ASearchedProducts</span>
-                <span class="method-start">42837 ms</span>
+                <span class="method-start">35267 ms</span>
               </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">driverFactory.TestScript02</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">startSearch</span>
+                <span class="method-start">69696 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">driverFactory.TestScript01</div> <!-- chronological-class-name -->
               <div class="configuration-suite after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">76805 ms</span>
+                <span class="method-start">74456 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

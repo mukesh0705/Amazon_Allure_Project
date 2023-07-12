@@ -1,68 +1,73 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="84.769" tests="4" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="82.575" tests="5" errors="0" skipped="0" failures="1">
   <properties>
-    <property name="java.specification.version" value="19"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.class.path" value="C:\Users\MUKESH\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.class.path" value="C:\Users\MUKESH\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_1.18.3.20220227-1319\jars\plexus-classworlds-2.6.0.jar"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
-    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
     <property name="user.timezone" value="Asia/Calcutta"/>
-    <property name="java.vm.specification.version" value="19"/>
     <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="11"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IN"/>
-    <property name="sun.boot.library.path" value="C:\jdk-19.0.2\bin"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B -Dstyle.color=always test"/>
+    <property name="sun.boot.library.path" value="C:\jdk-11.0.16\bin"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B test"/>
     <property name="jdk.debug" value="release"/>
-    <property name="maven.home" value="M:\OPPs_woekspace\Amazon_Project\EMBEDDED"/>
+    <property name="maven.home" value="M:\OPPs_woekspace\Amazon_Allure_Project\EMBEDDED"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\MUKESH"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
-    <property name="jansi.mode" value="force"/>
-    <property name="java.version.date" value="2023-01-17"/>
-    <property name="java.home" value="C:\jdk-19.0.2"/>
+    <property name="jansi.mode" value="strip"/>
+    <property name="java.version.date" value="2022-07-19"/>
+    <property name="java.home" value="C:\jdk-11.0.16"/>
     <property name="file.separator" value="\"/>
-    <property name="style.color" value="always"/>
     <property name="java.vm.compressedOopsMode" value="32-bit"/>
     <property name="line.separator" value="&#10;"/>
-    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="java.runtime.version" value="19.0.2+7-44"/>
+    <property name="java.runtime.version" value="11.0.16+11-LTS-199"/>
     <property name="user.name" value="MUKESH"/>
-    <property name="stdout.encoding" value="Cp1252"/>
     <property name="path.separator" value=";"/>
     <property name="os.version" value="10.0"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="file.encoding" value="UTF-8"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.9"/>
     <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
     <property name="java.io.tmpdir" value="C:\Users\MUKESH\AppData\Local\Temp\"/>
-    <property name="java.version" value="19.0.2"/>
-    <property name="user.dir" value="M:\OPPs_woekspace\Amazon_Project"/>
+    <property name="java.version" value="11.0.16"/>
+    <property name="user.dir" value="M:\OPPs_woekspace\Amazon_Allure_Project"/>
     <property name="os.arch" value="amd64"/>
-    <property name="maven.multiModuleProjectDirectory" value="M:\OPPs_woekspace\Amazon_Project"/>
+    <property name="maven.multiModuleProjectDirectory" value="M:\OPPs_woekspace\Amazon_Allure_Project"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
     <property name="sun.os.patch.level" value=""/>
-    <property name="m2e.build.project.data.socket.port" value="53290"/>
-    <property name="native.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\jdk-19.0.2\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/jdk-19.0.2/bin/server;C:/jdk-19.0.2/bin;C:\jdk-19.0.2\bin;E:\apache-maven-3.9.1\bin;C:\Java\jdk1.8.0_121\bin;C:\Program Files\PowerShell\7\;C:\jdk-11.0.16\bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Python311\Scripts\;C:\Python311\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x64;C:\ProgramData\chocolatey\bin;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x64;C:\Program Files (x86)\NoteBook FanControl\;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;M:\allure-commandline-2.13.0\allure-2.13.0\bin;C:\Users\MUKESH\AppData\Local\Microsoft\WindowsApps;;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.3.1\bin;;C:\Users\MUKESH\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\MUKESH\Desktop;;."/>
-    <property name="java.vm.info" value="mixed mode, sharing"/>
-    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\jdk-11.0.16\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/jdk-11.0.16/bin/server;C:/jdk-11.0.16/bin;C:\jdk-11.0.16\bin;E:\apache-maven-3.9.1\bin;C:\jdk-19.0.2\bin;C:\Java\jdk1.8.0_121\bin;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Program Files\PowerShell\7\;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Python311\Scripts\;C:\Python311\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x64;C:\ProgramData\chocolatey\bin;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x64;C:\Program Files (x86)\NoteBook FanControl\;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;M:\allure-commandline-2.13.0\allure-2.13.0\bin;C:\Users\MUKESH\AppData\Local\Microsoft\WindowsApps;;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.3.1\bin;;C:\Users\MUKESH\Desktop;;."/>
     <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="java.vm.version" value="19.0.2+7-44"/>
-    <property name="classworlds.conf" value="M:\OPPs_woekspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf2095886592799673044.tmp"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11.0.16+11-LTS-199"/>
+    <property name="classworlds.conf" value="M:\OPPs_woekspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf10750716887510941265.tmp"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
-    <property name="java.class.version" value="63.0"/>
+    <property name="java.class.version" value="55.0"/>
   </properties>
-  <testcase name="verifyFrontPageTitle" classname="driverFactory.TestScript" time="1.814"/>
-  <testcase name="verifyFrontPageHeader" classname="driverFactory.TestScript" time="0.202"/>
-  <testcase name="search" classname="driverFactory.TestScript" time="23.201"/>
-  <testcase name="ASearchedProducts" classname="driverFactory.TestScript" time="28.756"/>
+  <testcase name="verifyFrontPageTitle" classname="driverFactory.TestScript01" time="1.146"/>
+  <testcase name="verifyFrontPageHeader" classname="driverFactory.TestScript01" time="1.055"/>
+  <testcase name="search" classname="driverFactory.TestScript01" time="13.574"/>
+  <testcase name="ASearchedProducts" classname="driverFactory.TestScript01" time="32.957"/>
+  <testcase name="startSearch" classname="driverFactory.TestScript02" time="2.66">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at driverFactory.TestScript02.startSearch(TestScript02.java:14)
+</failure>
+  </testcase>
 </testsuite>

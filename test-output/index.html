@@ -7,7 +7,7 @@
 
     <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
     <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
-    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
     <script type="text/javascript" src="testng-reports.js"></script>
     <script type="text/javascript" src="https://www.google.com/jsapi"></script>
     <script type='text/javascript'>
@@ -21,12 +21,11 @@
      -->
   </head>
 
-  <body>
-    <div class="top-banner-root">
+  <body>    <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,8 +38,8 @@
       <div class="suite">
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
-            <a href="#" panel-name="suite-driverFactory_TestScript" class="navigator-link">
-              <span class="suite-name border-passed">driverFactory.TestScript</span>
+            <a href="#" panel-name="suite-Smoke_Test" class="navigator-link">
+              <span class="suite-name border-failed">Smoke Test</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -50,37 +49,37 @@
             <div class="suite-section-content">
               <ul>
                 <li>
-                  <a href="#" panel-name="test-xml-driverFactory_TestScript" class="navigator-link ">
-                    <span>M:\OPPs_woekspace\Amazon_Project\testNg.xml</span>
+                  <a href="#" panel-name="test-xml-Smoke_Test" class="navigator-link ">
+                    <span>M:\OPPs_woekspace\Amazon_Allure_Project\testNg.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="testlist-driverFactory_TestScript" class="navigator-link ">
+                  <a href="#" panel-name="testlist-Smoke_Test" class="navigator-link ">
                     <span class="test-stats">1 test</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="group-driverFactory_TestScript" class="navigator-link ">
+                  <a href="#" panel-name="group-Smoke_Test" class="navigator-link ">
                     <span>0 groups</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="times-driverFactory_TestScript" class="navigator-link ">
+                  <a href="#" panel-name="times-Smoke_Test" class="navigator-link ">
                     <span>Times</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="reporter-driverFactory_TestScript" class="navigator-link ">
+                  <a href="#" panel-name="reporter-Smoke_Test" class="navigator-link ">
                     <span>Reporter output</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="ignored-methods-driverFactory_TestScript" class="navigator-link ">
+                  <a href="#" panel-name="ignored-methods-Smoke_Test" class="navigator-link ">
                     <span>Ignored methods</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="chronological-driverFactory_TestScript" class="navigator-link ">
+                  <a href="#" panel-name="chronological-Smoke_Test" class="navigator-link ">
                     <span>Chronological view</span>
                   </a> <!-- navigator-link  -->
                 </li>
@@ -93,36 +92,50 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">4 methods,   4 passed</span>
+                    <span class="method-stats">5 methods, 1 failed,   4 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Smoke_Test" class="hide-methods failed suite-Smoke_Test"> (hide)</a> <!-- hide-methods failed suite-Smoke_Test -->
+                      <a href="#" panel-name="suite-Smoke_Test" class="show-methods failed suite-Smoke_Test"> (show)</a> <!-- show-methods failed suite-Smoke_Test -->
+                    </span>
+                    <div class="method-list-content failed suite-Smoke_Test">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Smoke_Test" title="driverFactory.TestScript02" class="method navigator-link" hash-for-method="startSearch">startSearch</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Smoke_Test -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
                     <span class="show-or-hide-methods passed">
-                      <a href="#" panel-name="suite-driverFactory_TestScript" class="hide-methods passed suite-driverFactory_TestScript"> (hide)</a> <!-- hide-methods passed suite-driverFactory_TestScript -->
-                      <a href="#" panel-name="suite-driverFactory_TestScript" class="show-methods passed suite-driverFactory_TestScript"> (show)</a> <!-- show-methods passed suite-driverFactory_TestScript -->
+                      <a href="#" panel-name="suite-Smoke_Test" class="hide-methods passed suite-Smoke_Test"> (hide)</a> <!-- hide-methods passed suite-Smoke_Test -->
+                      <a href="#" panel-name="suite-Smoke_Test" class="show-methods passed suite-Smoke_Test"> (show)</a> <!-- show-methods passed suite-Smoke_Test -->
                     </span>
-                    <div class="method-list-content passed suite-driverFactory_TestScript">
+                    <div class="method-list-content passed suite-Smoke_Test">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-driverFactory_TestScript" title="driverFactory.TestScript" class="method navigator-link" hash-for-method="ASearchedProducts">ASearchedProducts</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Smoke_Test" title="driverFactory.TestScript01" class="method navigator-link" hash-for-method="ASearchedProducts">ASearchedProducts</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-driverFactory_TestScript" title="driverFactory.TestScript" class="method navigator-link" hash-for-method="search">search</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Smoke_Test" title="driverFactory.TestScript01" class="method navigator-link" hash-for-method="search">search</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-driverFactory_TestScript" title="driverFactory.TestScript" class="method navigator-link" hash-for-method="verifyFrontPageHeader">verifyFrontPageHeader</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Smoke_Test" title="driverFactory.TestScript01" class="method navigator-link" hash-for-method="verifyFrontPageHeader">verifyFrontPageHeader</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-driverFactory_TestScript" title="driverFactory.TestScript" class="method navigator-link" hash-for-method="verifyFrontPageTitle">verifyFrontPageTitle</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Smoke_Test" title="driverFactory.TestScript01" class="method navigator-link" hash-for-method="verifyFrontPageTitle">verifyFrontPageTitle</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content passed suite-driverFactory_TestScript -->
+                    </div> <!-- method-list-content passed suite-Smoke_Test -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -133,11 +146,49 @@
     </div> <!-- navigator-root -->
     <div class="wrapper">
       <div class="main-panel-root">
-        <div panel-name="suite-driverFactory_TestScript" class="panel driverFactory_TestScript">
-          <div class="suite-driverFactory_TestScript-class-passed">
+        <div panel-name="suite-Smoke_Test" class="panel Smoke_Test">
+          <div class="suite-Smoke_Test-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">driverFactory.TestScript02</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="startSearch">
+                  </a> <!-- startSearch -->
+                  <span class="method-name">startSearch</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy20.click(Unknown Source)
+	at scenario02.AfrontPage01.fPage(AfrontPage01.java:17)
+	at driverFactory.TestScript02.startSearch(TestScript02.java:24)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Smoke_Test-class-failed -->
+          <div class="suite-Smoke_Test-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">driverFactory.TestScript</span>
+              <span class="class-name">driverFactory.TestScript01</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
@@ -169,91 +220,102 @@
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-driverFactory_TestScript-class-passed -->
-        </div> <!-- panel driverFactory_TestScript -->
-        <div panel-name="test-xml-driverFactory_TestScript" class="panel">
+          </div> <!-- suite-Smoke_Test-class-passed -->
+        </div> <!-- panel Smoke_Test -->
+        <div panel-name="test-xml-Smoke_Test" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">M:\OPPs_woekspace\Amazon_Project\testNg.xml</span>
+            <span class="header-content">M:\OPPs_woekspace\Amazon_Allure_Project\testNg.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite name=&quot;driverFactory.TestScript&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;3&quot;&gt;
-  &lt;test thread-count=&quot;5&quot; parallel=&quot;classes&quot; name=&quot;Command line test&quot; verbose=&quot;3&quot;&gt;
+&lt;suite parallel=&quot;classes&quot; name=&quot;Smoke Test&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;2&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; parallel=&quot;classes&quot; name=&quot;test1&quot; verbose=&quot;2&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;driverFactory.TestScript&quot;/&gt;
+      &lt;class name=&quot;driverFactory.TestScript01&quot;/&gt;
+      &lt;class name=&quot;driverFactory.TestScript02&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Command line test --&gt;
-&lt;/suite&gt; &lt;!-- driverFactory.TestScript --&gt;
+  &lt;/test&gt; &lt;!-- test1 --&gt;
+&lt;/suite&gt; &lt;!-- Smoke Test --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="testlist-driverFactory_TestScript" class="panel">
+        <div panel-name="testlist-Smoke_Test" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Tests for driverFactory.TestScript</span>
+            <span class="header-content">Tests for Smoke Test</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Command line test (1 class)</span>
+                <span class="test-name">test1 (2 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="group-driverFactory_TestScript" class="panel">
+        <div panel-name="group-Smoke_Test" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Groups for driverFactory.TestScript</span>
+            <span class="header-content">Groups for Smoke Test</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="times-driverFactory_TestScript" class="panel">
+        <div panel-name="times-Smoke_Test" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Times for driverFactory.TestScript</span>
+            <span class="header-content">Times for Smoke Test</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="times-div">
               <script type="text/javascript">
-suiteTableInitFunctions.push('tableData_driverFactory_TestScript');
-function tableData_driverFactory_TestScript() {
+suiteTableInitFunctions.push('tableData_Smoke_Test');
+function tableData_Smoke_Test() {
 var data = new google.visualization.DataTable();
 data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(4);
+data.addRows(5);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'ASearchedProducts')
-data.setCell(0, 2, 'driverFactory.TestScript')
-data.setCell(0, 3, 29576);
+data.setCell(0, 2, 'driverFactory.TestScript01')
+data.setCell(0, 3, 25712);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'search')
-data.setCell(1, 2, 'driverFactory.TestScript')
-data.setCell(1, 3, 8990);
+data.setCell(1, 2, 'driverFactory.TestScript01')
+data.setCell(1, 3, 7682);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'verifyFrontPageTitle')
-data.setCell(2, 2, 'driverFactory.TestScript')
-data.setCell(2, 3, 5567);
+data.setCell(2, 2, 'driverFactory.TestScript01')
+data.setCell(2, 3, 1712);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'verifyFrontPageHeader')
-data.setCell(3, 2, 'driverFactory.TestScript')
-data.setCell(3, 3, 394);
-window.suiteTableData['driverFactory_TestScript']= { tableData: data, tableDiv: 'times-div-driverFactory_TestScript'}
+data.setCell(3, 1, 'startSearch')
+data.setCell(3, 2, 'driverFactory.TestScript02')
+data.setCell(3, 3, 372);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'verifyFrontPageHeader')
+data.setCell(4, 2, 'driverFactory.TestScript01')
+data.setCell(4, 3, 233);
+window.suiteTableData['Smoke_Test']= { tableData: data, tableDiv: 'times-div-Smoke_Test'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 44 seconds</span>
-              <div id="times-div-driverFactory_TestScript">
-              </div> <!-- times-div-driverFactory_TestScript -->
+              <span class="suite-total-time">Total running time: 35 seconds</span>
+              <div id="times-div-Smoke_Test">
+              </div> <!-- times-div-Smoke_Test -->
             </div> <!-- times-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="reporter-driverFactory_TestScript" class="panel">
+        <div panel-name="reporter-Smoke_Test" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Reporter output for driverFactory.TestScript</span>
+            <span class="header-content">Reporter output for Smoke Test</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyFrontPageTitle</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Front page title verified ::  Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
               <span class="reporter-method-name">search</span>
               <div class="reporter-method-output-div">
@@ -269,54 +331,69 @@ return data;
             <div class="reporter-method-div">
               <span class="reporter-method-name">ASearchedProducts</span>
               <div class="reporter-method-output-div">
-                <span class="reporter-method-output">All searched product loaded and Clicked Product verified:: | Speedster Men Running Shoe  | Speedster Men Running Shoe</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">verifyFrontPageTitle</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Front page title verified ::  Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in</span>
+                <span class="reporter-method-output">All searched product loaded and Clicked Product verified:: Men's Running Shoe  Men's Running Shoe</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="ignored-methods-driverFactory_TestScript" class="panel">
+        <div panel-name="ignored-methods-Smoke_Test" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">0 ignored methods</span>
+            <span class="header-content">2 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">driverFactory.TestScript02</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+                <span class="ignored-method-name">setUp</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="chronological-driverFactory_TestScript" class="panel">
+        <div panel-name="chronological-Smoke_Test" class="panel">
           <div class="main-panel-header rounded-window-top">
             <span class="header-content">Methods in chronological order</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">driverFactory.TestScript</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">driverFactory.TestScript01</div> <!-- chronological-class-name -->
               <div class="configuration-suite before">
                 <span class="method-name">setUp</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-suite before -->
               <div class="test-method">
                 <span class="method-name">verifyFrontPageTitle</span>
-                <span class="method-start">37312 ms</span>
+                <span class="method-start">18243 ms</span>
               </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">driverFactory.TestScript02</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">startSearch</span>
+                <span class="method-start">18243 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">driverFactory.TestScript01</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">verifyFrontPageHeader</span>
-                <span class="method-start">43334 ms</span>
+                <span class="method-start">19970 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">search</span>
-                <span class="method-start">43742 ms</span>
+                <span class="method-start">20212 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">ASearchedProducts</span>
-                <span class="method-start">52757 ms</span>
+                <span class="method-start">27910 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-suite after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">83281 ms</span>
+                <span class="method-start">53801 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

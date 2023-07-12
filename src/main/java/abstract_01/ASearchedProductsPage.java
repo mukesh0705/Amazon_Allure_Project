@@ -51,7 +51,7 @@ public class ASearchedProductsPage extends BasePage {
 		String ClickedProduct = getAproduct().getText();
 		
 		
-		for (int i = 0; i < getPeoducsName().size(); i++) {
+		for (int i = 0; i < getPeoducsPrice().size(); i++) {
 			
 		    System.out.println(getPeoducsName().get(i).getText()+"  \t             \n\tRs"+getPeoducsPrice().get(i).getText());
 			

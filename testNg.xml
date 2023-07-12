@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="driverFactory.TestScript"  verbose="3">
-  <test thread-count="5" name="Command line test" parallel="classes" verbose="3">
+<suite name="Smoke Test"  parallel="classes" preserve-order="true" verbose="2">
+  <test  name="test1" >
     <classes>
-      <class name="driverFactory.TestScript"/>
+      <class name="driverFactory.TestScript01"/>
+      <class name="driverFactory.TestScript02"/>
     </classes>
+    
   </test> <!-- Command line test -->
+  
 </suite> <!-- driverFactory.TestScript -->
